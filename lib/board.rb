@@ -72,5 +72,4 @@ private
 		raise_errors_if_cant_place_ship(coords)
 		coords.each{|coord|grid[coord].content = ship}
 	end
-
 end
